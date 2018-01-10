@@ -9,8 +9,8 @@ do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=potter
-device.name2=potter_retail
+device.name1=sanders
+device.name2=sanders_retail
 } # end properties
 
 # shell variables

@@ -9,11 +9,11 @@ set -e
 ## Copy this script inside the kernel directory
 KERNEL_DIR=$PWD
 KERNEL_TOOLCHAIN=$KERNEL_DIR/toolchain/bin/aarch64-linaro-linux-android-
-KERNEL_DEFCONFIG=potter_defconfig
+KERNEL_DEFCONFIG=sanders_defconfig
 DTBTOOL=$KERNEL_DIR/Dtbtool/
 JOBS="-j$(nproc --all)"
 ANY_KERNEL2_DIR=$KERNEL_DIR/AnyKernel2/
-FINAL_KERNEL_ZIP=Destroyer™-potter-$(date +"%Y%m%d")-OREO-x64.zip
+FINAL_KERNEL_ZIP=Destroyer™-sanders-$(date +"%Y%m%d")-OREO-x64.zip
 export ZIP_NAME=$FINAL_KERNEL_ZIP
 
 BUILD_START=$(date +"%s")
